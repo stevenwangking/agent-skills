@@ -1,5 +1,7 @@
 # stevenwangking agent skills
 
+[![skills.sh](https://skills.sh/b/stevenwangking/agent-skills)](https://skills.sh/stevenwangking/agent-skills)
+
 A personal collection of [Agent Skills](https://agentskills.io) for coding agents, installable via the [skills CLI](https://skills.sh).
 
 ## Skills
@@ -21,6 +23,16 @@ npx skills add stevenwangking/agent-skills --skill commit
 ```
 
 See [skills.sh](https://skills.sh) and the [skills CLI docs](https://github.com/vercel-labs/skills) for supported agents and options.
+
+## Maintenance
+
+The canonical copies of these skills live in `~/.agents/skills/` on the author's machine. After editing a skill locally, run:
+
+```bash
+./sync.sh
+```
+
+It copies changed `SKILL.md` files into this repo, commits, and pushes. New skills: create `skills/<name>/` locally, add the directory here, and sync picks it up automatically.
 
 ## License
 
