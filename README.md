@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/stevenwangking/agent-skills)](https://skills.sh/stevenwangking/agent-skills)
 
-A personal collection of [Agent Skills](https://agentskills.io) for coding agents, installable via the [skills CLI](https://skills.sh).
+A personal collection of [Agent Skills](https://agentskills.io) for coding agents, installable via the [skills CLI](https://skills.sh). 中文说明：[README.zh-CN.md](README.zh-CN.md)
 
 ## Skills
 
