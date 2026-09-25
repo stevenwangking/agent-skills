@@ -3,7 +3,7 @@
 # 用法：编辑 ~/.agents/skills/<name>/SKILL.md 后，在本仓库任意位置运行 ./sync.sh
 set -euo pipefail
 
-SOURCE_DIR="${HOME}/.agents/skills"
+SOURCE_DIR="${SKILLS_SOURCE_DIR:-${HOME}/.agents/skills}"
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 updated=0

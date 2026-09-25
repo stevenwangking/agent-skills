@@ -148,3 +148,5 @@ If the simplification grows into a broad refactor, stop and reassess the scope r
 - Call out any uncertainty that could affect behavior before editing
 - Summarize only the meaningful simplifications and the validation that was run
 - If investigation finds no high-value simplification, say so and change nothing — a clean "nothing worth changing" beats forced edits
+
+New line for sync test.
