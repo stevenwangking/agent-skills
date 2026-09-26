@@ -78,7 +78,7 @@ Classic traps: inlining a helper that gave a concept its name; merging unrelated
 - No public API, storage format, or user-visible text changes unless explicitly requested
 - No weakening of error handling, logging, or validation
 - Naming follows project conventions, not personal preference
-- Don't modify tests to hide a behavior change
+- Don't modify tests to hide a behavior change — if a test must change because a mock or test seam moved, first verify the behavioral contract is intact
 - Keep refactoring commits separate from feature or bug-fix commits
 
 ## Output
